@@ -47,7 +47,7 @@ class DropDown extends React.Component {
                     </select>
                     <div className="overSelect" />
                 </div>
-                <div id="checkboxes" style={checkboxStyle}>
+                <div className="checkboxes" style={checkboxStyle}>
                     <input
                         type="text"
                         onChange={this.onSearch}

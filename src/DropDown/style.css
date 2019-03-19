@@ -19,7 +19,7 @@
     bottom: 0;
   }
   
-  #checkboxes {
+  .checkboxes {
     display: none;
     border: 1px #dadada solid;
     overflow: hidden;
@@ -27,20 +27,20 @@
     max-height: 100px;
   }
   
-  #checkboxes label {
+  .checkboxes label {
     display: block;
     text-align: left;
     margin-bottom: 5px;
     font-size:15px;
   }
   
-  #checkboxes input[type="text"] {
+  .checkboxes input[type="text"] {
     display: inherit;
     width: 100%;
     margin-bottom: 5px;
   }
   
-  #checkboxes label:hover {
+  .checkboxes label:hover {
     background-color: #1e90ff;
   }
   

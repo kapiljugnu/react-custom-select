@@ -18,7 +18,7 @@ exports[`Dropdown show option when click 1`] = `
     />
   </div>
   <div
-    id="checkboxes"
+    className="checkboxes"
     style={
       Object {
         "display": "none",
@@ -84,7 +84,7 @@ exports[`Dropdown show option when click 2`] = `
     />
   </div>
   <div
-    id="checkboxes"
+    className="checkboxes"
     style={
       Object {
         "display": "block",
