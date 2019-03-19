@@ -14,7 +14,7 @@ class App extends Component {
             <DropDown
               options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
               selectTitle="Games"
-              searchTitle="Search for games."
+              searchTitle="Search for games.."
             />
           </div>
         </header>
