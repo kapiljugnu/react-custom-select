@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DropDown from './DropDown';
 
 class App extends Component {
   render() {
@@ -8,7 +9,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          
+          <DropDown
+            options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
+            selectTitle="Games"
+            searchTitle="Search for games."
+          />
         </header>
       </div>
     );
