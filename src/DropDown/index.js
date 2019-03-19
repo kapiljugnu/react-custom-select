@@ -35,10 +35,8 @@ class DropDown extends React.Component {
     render() {
         const { options, selectTitle, searchTitle } = this.props;
         const { search, showOption, selectedOption } = this.state;
-        const checkboxStyle = { display: "none" };
-        if (showOption) {
-            checkboxStyle.display = "block";
-        }
+        const checkboxStyle = showOption ? { display: "block" } : { display: "none" };
+
         return (
             <div className="multiselect">
                 <div className="selectBox" onClick={this.onDropDownClick}>
