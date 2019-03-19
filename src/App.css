@@ -37,6 +37,7 @@
   padding: 2px;
   width:500px;
   overflow: hidden;
+  height: 250px;
 }
 
 .gamepicker p {
