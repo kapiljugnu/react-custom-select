@@ -10,7 +10,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <div className="gamepicker">
-            <p>Pick a game below.</p>
+            <p>Pick a game below</p>
             <DropDown
               options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
               selectTitle="Games"
