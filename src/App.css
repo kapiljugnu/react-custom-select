@@ -36,6 +36,7 @@
   background-color: white;
   padding: 2px;
   width:500px;
+  overflow: hidden;
 }
 
 .gamepicker p {
