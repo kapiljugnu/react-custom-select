@@ -9,11 +9,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <DropDown
-            options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
-            selectTitle="Games"
-            searchTitle="Search for games."
-          />
+          <div className="gamepicker">
+            <p>Pick a game below.</p>
+            <DropDown
+              options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
+              selectTitle="Games"
+              searchTitle="Search for games."
+            />
+          </div>
         </header>
       </div>
     );

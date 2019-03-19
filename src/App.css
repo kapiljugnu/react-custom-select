@@ -31,3 +31,39 @@
     transform: rotate(360deg);
   }
 }
+
+.gamepicker {
+  background-color: white;
+  padding: 2px;
+  width:500px;
+}
+
+.gamepicker p {
+  color: black;
+  margin: 0;
+  background-color: rgb(236, 236, 236);
+  text-align: left;
+  font-size: .8em;
+}
+
+.gamepicker .multiselect{
+  color: black;
+  margin: 5px 10px;
+}
+
+.gamepicker .multiselect select {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0px;
+    background: transparent;
+    color: rgb(165, 162, 162);
+}
+
+.gamepicker .multiselect input[type=text]{
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-bottom: 2px solid lightgray;
+}
