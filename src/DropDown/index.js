@@ -43,7 +43,9 @@ class DropDown extends React.Component {
                     <select>
                         <option>{selectTitle}</option>
                     </select>
-                    <div className="overSelect" />
+                    <div className="overSelect" >
+                        <div className="caret"></div>
+                    </div>
                 </div>
                 <div className="checkboxes" style={checkboxStyle}>
                     <input
