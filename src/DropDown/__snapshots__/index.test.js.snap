@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown show option when click 1`] = `
+<div
+  className="multiselect"
+>
+  <div
+    className="selectBox"
+    onClick={[Function]}
+  >
+    <select>
+      <option>
+        Games
+      </option>
+    </select>
+    <div
+      className="overSelect"
+    />
+  </div>
+  <div
+    id="checkboxes"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for games."
+      type="text"
+    />
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="CandyEat"
+      />
+      CandyEat
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="OnionsPick"
+      />
+      OnionsPick
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="FannyDuck"
+      />
+      FannyDuck
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="Click-o-Wisp"
+      />
+      Click-o-Wisp
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Dropdown show option when click 2`] = `
+<div
+  className="multiselect"
+>
+  <div
+    className="selectBox"
+    onClick={[Function]}
+  >
+    <select>
+      <option>
+        Games
+      </option>
+    </select>
+    <div
+      className="overSelect"
+    />
+  </div>
+  <div
+    id="checkboxes"
+    style={
+      Object {
+        "display": "block",
+      }
+    }
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search for games."
+      type="text"
+    />
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="CandyEat"
+      />
+      CandyEat
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="OnionsPick"
+      />
+      OnionsPick
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="FannyDuck"
+      />
+      FannyDuck
+    </label>
+    <label>
+      <input
+        onClick={[Function]}
+        type="checkbox"
+        value="Click-o-Wisp"
+      />
+      Click-o-Wisp
+    </label>
+  </div>
+</div>
+`;
