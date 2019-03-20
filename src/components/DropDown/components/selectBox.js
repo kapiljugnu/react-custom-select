@@ -13,6 +13,7 @@ const SelectBox = ({ selectTitle, onClick }) => (<div className="selectBox" onCl
 
 SelectBox.propTypes = {
     selectTitle: PropTypes.string,
+    onClick: PropTypes.func,
 };
 
 export default SelectBox;

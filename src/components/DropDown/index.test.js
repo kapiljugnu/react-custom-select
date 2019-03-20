@@ -2,7 +2,7 @@ import React from 'react';
 import DropDown from './index';
 import renderer from 'react-test-renderer';
 
-test('Dropdown show option when click', () => {
+test('should match snapshot with hidden options', () => {
     const component = renderer.create(<DropDown
         options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
         selectTitle="Games"
@@ -10,11 +10,17 @@ test('Dropdown show option when click', () => {
     />);
 
     expect(component.toJSON()).toMatchSnapshot();
+});
 
-    const root = component.root;
+test('should match snapshot with visible options', () => {
+    const component = renderer.create(<DropDown
+        options={["CandyEat", "OnionsPick", "FannyDuck", "Click-o-Wisp"]}
+        selectTitle="Games"
+        searchTitle="Search for games."
+    />);
 
-    const selectBox = root.find(element => element.props.className === 'selectBox');
+    const selectBox = component.root.find(element => element.props.className === 'selectBox');
     selectBox.props.onClick();
 
     expect(component.toJSON()).toMatchSnapshot();
-})
+});

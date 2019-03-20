@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Options = ({ value, onClick, selected }) => {
     const props = {
@@ -14,5 +15,11 @@ const Options = ({ value, onClick, selected }) => {
         {value}
     </label>)
 };
+
+Options.propTypes = {
+    value: PropTypes.string,
+    onClick: PropTypes.func,
+    selected: PropTypes.bool,
+}
 
 export default Options;

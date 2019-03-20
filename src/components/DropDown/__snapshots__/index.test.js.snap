@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown show option when click 1`] = `
+exports[`should match snapshot with hidden options 1`] = `
 <div
   className="multiselect"
 >
@@ -15,7 +15,11 @@ exports[`Dropdown show option when click 1`] = `
     </select>
     <div
       className="overSelect"
-    />
+    >
+      <div
+        className="caret"
+      />
+    </div>
   </div>
   <div
     className="checkboxes"
@@ -66,7 +70,7 @@ exports[`Dropdown show option when click 1`] = `
 </div>
 `;
 
-exports[`Dropdown show option when click 2`] = `
+exports[`should match snapshot with visible options 1`] = `
 <div
   className="multiselect"
 >
@@ -81,7 +85,11 @@ exports[`Dropdown show option when click 2`] = `
     </select>
     <div
       className="overSelect"
-    />
+    >
+      <div
+        className="caret"
+      />
+    </div>
   </div>
   <div
     className="checkboxes"
