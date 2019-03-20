@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
 import './style.css';
 import DropDown from '../DropDown';
 import { getGames } from '../../services/getGames';
@@ -19,7 +18,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <div className="gamepicker">
             <p>Pick a game below</p>
             <DropDown

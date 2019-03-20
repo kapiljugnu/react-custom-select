@@ -35,9 +35,10 @@
 .gamepicker {
   background-color: white;
   padding: 2px;
-  width:500px;
+  width:50%;
   overflow: hidden;
   height: 250px;
+  overflow: scroll;
 }
 
 .gamepicker p {

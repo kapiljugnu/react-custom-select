@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-To install the dependencies of the project.
+To begin with the project, you have to install it dependency first. To achieve that you have to execute the command `npm install`.
 
 ### `npm start`
 
@@ -25,4 +25,11 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### `Browser Coverage`
+
+The application is tested on browser -
+Chrome - 72
+Firefox - 65
+Chrome simulator for iPhone, iPad, Pixel 2
 
